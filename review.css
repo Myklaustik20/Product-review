@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Lato&family=Poppins&family=Roboto&family=Roboto+Serif:opsz@8..144&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #5800FF;
+}
+
+.img-container {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 1px #2C3333;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    color: #F1F1F1;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    left: 40%;
+    bottom: -18px;
+    width: 20%;
+    height: 5px;
+    background-color: #F1F1F1;
+    border-radius: 3px;
+}
+
+.review {
+    width: 500px;
+    border: 1px solid transparent;
+    background: white;
+    padding: 1.5rem;
+    box-shadow: 1px 3px 5px #2C3333;
+    border-radius: 5px;
+}
+
+#author {
+   padding-bottom: 5px;
+}
+
+#job {
+    color: #5800FF;
+    padding-bottom: 10px;
+}
+
+#info {
+    padding-bottom: 10px;
+    color: #2C3333;
+}
+
+button {
+    padding: 10px;
+    margin-right: 15px;
+    border: none;
+    background-color: #5800FF;
+    color: #F1F1F1;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: #F1F1F1;
+    color: #5800FF;
+    border: 1px solid #5800FF;
+}
